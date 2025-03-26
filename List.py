@@ -12,3 +12,7 @@ def filter_value(cost):
 price=[230,480,450,350,370]
 filter_value=filter(filter_value,price)
 print(list (filter_value))
+
+samplelist=["12","name",54,10,29,245,789]
+samplelist[2:5]=[25,45,55]
+print(samplelist)
